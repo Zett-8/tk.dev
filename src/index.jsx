@@ -1,4 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
 
-render(<div>hi</div>, document.getElementById('root'))
+import Router from './router'
+
+render(<Router />, document.getElementById('root'))
