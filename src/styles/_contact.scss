@@ -1,0 +1,38 @@
+#contact {
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: 5rem 1fr 5rem;
+
+  .contact_button {
+    grid-row: 2 / 3;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-size: 2rem;
+    border: 4px $color-black solid;
+    padding: 1rem 2rem;
+    width: 350px;
+    height: 60px;
+  }
+
+  .contact_button:hover {
+    border: 4px #555555 solid;
+    color: #555555;
+    cursor: pointer;
+  }
+
+  .social_icons {
+    grid-row: 3 / 4;
+    justify-self: center;
+
+
+
+    a {
+      margin: 0 1rem;
+      opacity: 0.6;
+    }
+    a:hover { opacity: 1; }
+  }
+
+}

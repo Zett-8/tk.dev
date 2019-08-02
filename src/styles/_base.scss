@@ -1,0 +1,119 @@
+$color-white: #f4f4f4;
+$color-black: #2f2f2f;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  //color: $color-basic;
+  font-weight: 300;
+  line-height: 1.6;
+  background-color: $color-white;
+}
+
+a {
+  text-decoration: none;
+  //color: $color-basic;
+}
+
+
+.menu {
+  position: fixed;
+  right: 0;
+  z-index: 999;
+
+  display: grid;
+  background: rgba(244, 244, 244, 0.2);
+
+  padding: 20px 30px;
+  width: 200px;
+  height: 240px;
+
+  transition: all 300ms 0s ease;
+
+  p {
+    align-self: center;
+  }
+
+  a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    width: 55px;
+  }
+}
+
+.button_N {
+  position: fixed;
+  top: 30px;
+  right: 55px;
+  z-index: 999;
+
+  .button_Hum, .button_Hum:before, .button_Hum:after {
+    position: absolute;
+    height: 3px;/*線の太さ*/
+    width: 25px;/*長さ*/
+    border-radius: 1px;
+    border-bottom: black 1px solid;
+    display: block;
+    content: '';
+    cursor: pointer;
+  }
+
+  .button_Hum:before {
+    margin-top: 7px;
+  }
+
+  .button_Hum:after {
+    padding-top: 16px;
+  }
+
+}
+
+.button_C {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  z-index: 999;
+  cursor: pointer;
+
+  height: 3rem;
+  width: 3rem;
+
+  .button_Hum, .button_Hum:before {
+    position: absolute;
+
+
+    width: 25px;/*長さ*/
+    border-radius: 1px;
+
+    display: block;
+    content: '';
+    cursor: pointer;
+  }
+
+  .button_Hum {
+    margin-top: 14px;
+    border-bottom: black 1px solid;
+    transform: rotate(45deg);
+  }
+
+  .button_Hum:before {
+    border-top: black 1px solid;
+    transform: rotate(-90deg);
+  }
+
+}
