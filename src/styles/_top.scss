@@ -7,6 +7,10 @@
     position: absolute;
     left: 40px;
     top: 30px;
+
+    @media only screen and (max-width: $screen-small) {
+      left: 15px;
+    }
   }
 
   .top_txt {
@@ -27,7 +31,7 @@
 
 #steep {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   display: block;
   height: 10vh;
   width: 100%;

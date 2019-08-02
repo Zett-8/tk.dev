@@ -1,3 +1,65 @@
-#works {
-  height: 110vh;
+@mixin workDesc {
+  display: grid;
+  opacity: 1;
+  background-color: white;
+  margin: -59% 3% 3% 3%;
+  padding: 20px;
+
+  animation: show 0.4s linear 0s;
+
+  > h3 {
+    justify-self: center;
+    align-self: end;
+    font-size: 1.4rem;
+  }
+
+  > p {
+    justify-self: center;
+    align-self: start;
+    font-size: 1.2rem;
+  }
 }
+
+#works {
+  height: min-content;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  grid-template-rows: min-content min-content min-content;
+
+  .work {
+    display: grid;
+  }
+
+  .workImage{
+    width: 100%;
+  }
+
+  @keyframes show {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .work_desc {
+    display: none;
+    opacity: 0;
+
+    margin: -59% 3% 3% 3%;
+    transition: all 400ms 0s ease;
+
+
+  }
+
+  .workImage:hover + .work_desc {
+    @include workDesc;
+  }
+
+  .work_desc:hover {
+    @include workDesc;
+  }
+}
+

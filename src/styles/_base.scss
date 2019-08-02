@@ -1,5 +1,6 @@
 $color-white: #f4f4f4;
 $color-black: #2f2f2f;
+$screen-small: 37.5rem;
 
 *,
 *::before,
@@ -44,6 +45,7 @@ a {
 
   p {
     align-self: center;
+    font-weight: bold;
   }
 
   a {
@@ -62,11 +64,14 @@ a {
   right: 55px;
   z-index: 999;
 
+  @media only screen and (max-width: $screen-small) {
+      right: 35px;
+    }
+
   .button_Hum, .button_Hum:before, .button_Hum:after {
     position: absolute;
     height: 3px;/*線の太さ*/
     width: 25px;/*長さ*/
-    border-radius: 1px;
     border-bottom: black 1px solid;
     display: block;
     content: '';
@@ -93,13 +98,13 @@ a {
   height: 3rem;
   width: 3rem;
 
+  @media only screen and (max-width: $screen-small) {
+      right: 5px;
+    }
+
   .button_Hum, .button_Hum:before {
     position: absolute;
-
-
     width: 25px;/*長さ*/
-    border-radius: 1px;
-
     display: block;
     content: '';
     cursor: pointer;

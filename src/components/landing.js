@@ -8,16 +8,21 @@ import Instagram from '../assets/i.png'
 import FaceBook from '../assets/f.png'
 import GitHub from '../assets/g.png'
 import LinkedIn from '../assets/l.png'
+import Sam from '../assets/sam.jpg'
+import One from '../assets/001.jpg'
+import Two from '../assets/002.jpg'
+import Three from '../assets/003.jpg'
+import Four from '../assets/movie1.gif'
 
 const landing = props => {
   return (
     <React.Fragment>
       <div className="menu" style={props.menuIsOpen ? null : { display: 'none', height: '0', marginTop: '-50px' }}>
-        <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#top">top</AnchorLink></p>
-        <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#about">about</AnchorLink></p>
-        <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#works">works</AnchorLink></p>
-        <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#skills">skills</AnchorLink></p>
-        <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#contact">contact</AnchorLink></p>
+        <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#top">Top</AnchorLink></p>
+        <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#about">About</AnchorLink></p>
+        <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#works">Works</AnchorLink></p>
+        <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#skills">Skills</AnchorLink></p>
+        <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#contact">Contact</AnchorLink></p>
       </div>
 
       <div className={props.menuIsOpen ? 'button_C' : 'button_N'} onClick={() => props.hamburgerClicked()}>
@@ -43,7 +48,11 @@ const landing = props => {
 
         <h2>about</h2>
 
-        <p className="about_p">
+        <p className="about_interests">
+          Photographs, Movies, Books, Coffee
+        </p>
+
+        <p className="about_profile">
           I am a Street photographer and also a programmer.
           <br />
           My work Career started as an occupational photographer but since 2017 I decided to change my career and bocame
@@ -63,7 +72,56 @@ const landing = props => {
         </p>
       </div>
 
-      <div id="works">works</div>
+      <div id="works">
+        <div className="work">
+          <img className="workImage" src={One} alt="" />
+          <div className="work_desc">
+            <h3>Painting</h3>
+            <p>fjsajfajfsa</p>
+          </div>
+        </div>
+        <div className="work">
+          <img className="workImage" src={Four} alt="" />
+          <div className="work_desc">
+            <h3>Song of the end</h3>
+            <p>
+              Music video for rock band for "Yoctopolis"
+              <br />
+              Produced in 2016
+            </p>
+          </div>
+        </div>
+        <div className="work">
+          <img className="workImage" src={Sam} alt="" />
+          <div className="work_desc">
+            <h3>Painting</h3>
+            <p>fjsajfajfsa</p>
+          </div>
+        </div>
+        <div className="work">
+          <img className="workImage" src={Two} alt="" />
+          <div className="work_desc">
+            <h3>T.K. Photography</h3>
+            <p>My portfolio site as a photographer<br />Build by HTML + CSS + Javascript</p>
+          </div>
+        </div>
+        <div className="work">
+          <img className="workImage" src={Three} alt="" />
+          <div className="work_desc">
+            <h3>The Memory of the summer</h3>
+            <p>53rd Nikkor Photo Contest Winning prize</p>
+          </div>
+        </div>
+        <div className="work">
+          <img className="workImage" src={Sam} alt="" />
+          <div className="work_desc">
+            <h3>Painting</h3>
+            <p>fjsajfajfsa</p>
+          </div>
+        </div>
+
+
+      </div>
 
       <div id="skills">skills and resume</div>
 
