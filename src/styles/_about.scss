@@ -2,9 +2,14 @@
   display: grid;
   grid-template-columns: minmax(2rem, 6rem) 1fr minmax(2rem, 6rem);
 
-  height: 110vh;
+  min-height: 110vh;
+  height: min-content;
 
   background-color: $color-black;
+
+  @media only screen and (max-width: $screen-small) {
+    grid-template-columns: 2rem 1fr 2rem;
+  }
 
   .aboutWrapper {
     grid-column: 2 / 3;

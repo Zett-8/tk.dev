@@ -158,6 +158,7 @@ const landing = props => {
           <a href="https://github.com/Zett-8" target="_blank" rel="noopener noreferrer">
             <img src={GitHub} alt="" width="25px" />
           </a>
+          <p className="copy">Designed and Built by Toshiki Kamei.</p>
         </div>
       </div>
       <input readOnly={true} value={props.email} ref={props.inputRef} style={{ opacity: '0', position: 'fixed' }} />

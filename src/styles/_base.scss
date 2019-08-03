@@ -35,13 +35,13 @@ a {
   z-index: 999;
 
   display: grid;
-  background: rgba(244, 244, 244, 0.2);
 
   padding: 20px 30px;
   width: 200px;
   height: 240px;
 
-  transition: all 300ms 0s ease;
+  animation: show 0.9s linear 0s;
+  //transition: all 300ms 0s ease;
 
   p {
     align-self: center;

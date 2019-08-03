@@ -2,7 +2,8 @@
   height: 100vh;
 
   display: grid;
-  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-rows: 8rem 1fr 8rem;
+  text-align: center;
 
   .contact_button {
     grid-row: 2 / 3;
@@ -33,6 +34,12 @@
       opacity: 0.6;
     }
     a:hover { opacity: 1; }
+  }
+
+  .copy {
+    font-size: 1.08rem;
+    letter-spacing: 0.2rem;
+    margin-top: 0.8rem;
   }
 
 }
