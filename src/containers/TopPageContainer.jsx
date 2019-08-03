@@ -1,7 +1,13 @@
 import React from 'react'
-import Landing from '../components/landing'
 
-class LandingPageContainer extends React.Component {
+import Header from '../components/header'
+import Landing from '../components/landing'
+import About from '../components/about'
+import Works from '../components/works'
+import SkillsAndResume from '../components/skills_and_resume'
+import Contact from '../components/contact'
+
+class Container extends React.Component {
   constructor(props) {
     super(props)
 
@@ -28,16 +34,29 @@ class LandingPageContainer extends React.Component {
 
   render() {
     return (
-      <Landing
-        copyAddress={this.copyAddress}
-        email={this.state.email}
-        inputRef={this.input}
-        copied={this.state.copied}
-        menuIsOpen={this.state.menuIsOpen}
-        hamburgerClicked={this.hamburgerClicked}
-      />
+      <React.Fragment>
+        <Header
+          menuIsOpen={this.state.menuIsOpen}
+          hamburgerClicked={this.hamburgerClicked}
+        />
+
+        <Landing />
+
+        <About />
+
+        <Works />
+
+        <SkillsAndResume />
+
+        <Contact
+          copyAddress={this.copyAddress}
+          email={this.state.email}
+          inputRef={this.input}
+          copied={this.state.copied}
+        />
+      </React.Fragment>
     )
   }
 }
 
-export default LandingPageContainer
+export default Container
