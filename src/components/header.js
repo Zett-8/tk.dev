@@ -9,7 +9,7 @@ const header = props => {
         <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#top">Top</AnchorLink></p>
         <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#about">About</AnchorLink></p>
         <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#works">Works</AnchorLink></p>
-        <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#skills">Skills</AnchorLink></p>
+        <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#SR">Skills</AnchorLink></p>
         <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#contact">Contact</AnchorLink></p>
       </div>
 

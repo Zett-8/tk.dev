@@ -27,7 +27,7 @@
         color: $color-magenta;
         letter-spacing: 0.1rem;
 
-        border-bottom: magenta 1px solid;
+        //border-bottom: magenta 1px solid;
 
         margin-bottom: 2rem;
       }
@@ -35,8 +35,10 @@
       &__eachSkills {
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
         .sBox {
           text-align: center;
+          margin: 0 1rem 1rem 1rem;
 
           .arrow { color: $color-magenta; }
 

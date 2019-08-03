@@ -43,7 +43,7 @@ export default () => {
               <p className="under">love of my life</p>
             </div>
             <div className="sBox">
-              <p className="top">Document Photo</p>
+              <p className="top">DocumentPhoto</p>
             </div>
             <div className="sBox">
               <p className="top">
@@ -53,10 +53,10 @@ export default () => {
               <p className="under">unposed<br />natural</p>
             </div>
             <div className="sBox">
-              <p className="top">Music Video</p>
+              <p className="top">MusicVideo</p>
             </div>
             <div className="sBox">
-              <p className="top">Short Ad Movie</p>
+              <p className="top">PromoVideo</p>
             </div>
           </div>
 
