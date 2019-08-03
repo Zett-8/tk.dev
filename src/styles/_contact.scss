@@ -43,3 +43,11 @@
   }
 
 }
+
+#steep_b {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 110px 100vw 0 0;
+  border-color: $color-black transparent transparent transparent;
+}

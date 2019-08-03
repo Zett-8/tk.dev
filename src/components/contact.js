@@ -10,6 +10,7 @@ const contact = props => {
   return (
     <React.Fragment>
       <div id="contact">
+        <div id="steep_b" />
         {props.copied ? (
           <p className="contact_button" onClick={() => props.copyAddress()}>
             Copied email!
