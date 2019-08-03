@@ -13,6 +13,9 @@ import One from '../assets/001.jpg'
 import Two from '../assets/002.jpg'
 import Three from '../assets/003.jpg'
 import Four from '../assets/movie1.gif'
+import Five from '../assets/004.jpg'
+import Portrait_ray from '../assets/portrait1_ratio.jpg'
+
 
 const landing = props => {
   return (
@@ -42,34 +45,32 @@ const landing = props => {
       <div id="steep" />
 
       <div id="about">
-        <p className="about_me">
-          <img src={Me} alt="me" width="200px" />
-        </p>
+        <div className="aboutWrapper">
+          <p className="about_me">
+            <img src={Me} alt="me" width="200px" />
+          </p>
 
-        <h2>about</h2>
-
-        <p className="about_interests">
-          Photographs, Movies, Books, Coffee
-        </p>
-
-        <p className="about_profile">
-          I am a Street photographer and also a programmer.
-          <br />
-          My work Career started as an occupational photographer but since 2017 I decided to change my career and bocame
-          a programmer.
-          <br />
-          I make ... Photographs, Videos, and Web services.
-          <br />
-          <br />
-          I didn’t learn any of them in university nor have any degrees about them.
-          <br />
-          but I knew, I realized, the only important thing is to keep improving myself day to day and to keep stepping
-          forward one by one.
-          <br />
-          <br />
-          Eager to be a better one, passion and expectation that I want to make something better or make the world
-          convinient, and curiosity about the adventure of life, drive me.
-        </p>
+          <p className="about_profile">
+            Photographs, Movies, Books, Coffee
+            <br />
+            I am a Street photographer and also a programmer.
+            <br />
+            My work Career started as an occupational photographer but since 2017 I decided to change my career and bocame
+            a programmer.
+            <br />
+            I make ... Photographs, Videos, and Web services.
+            <br />
+            <br />
+            I didn’t learn any of them in university nor have any degrees about them.
+            <br />
+            but I knew, I realized, the only important thing is to keep improving myself day to day and to keep stepping
+            forward one by one.
+            <br />
+            <br />
+            Eager to be a better one, passion and expectation that I want to make something better or make the world
+            convinient, and curiosity about the adventure of life, drive me.
+          </p>
+        </div>
       </div>
 
       <div id="works">
@@ -77,7 +78,11 @@ const landing = props => {
           <img className="workImage" src={One} alt="" />
           <div className="work_desc">
             <h3>Painting</h3>
-            <p>fjsajfajfsa</p>
+            <p>
+              ISPA 2014 International StreetPhotography Award <br />
+              Black and White Category<br />
+              Commended Photo Price
+            </p>
           </div>
         </div>
         <div className="work">
@@ -92,16 +97,20 @@ const landing = props => {
           </div>
         </div>
         <div className="work">
-          <img className="workImage" src={Sam} alt="" />
+          <img className="workImage" src={Five} alt="" />
           <div className="work_desc">
-            <h3>Painting</h3>
-            <p>fjsajfajfsa</p>
+            <h3>Olive</h3>
+            <p>
+              Online Art Gallery, 2019<br />
+              HTML5 + CSS3 <br />
+              Javascript(React) + Python(RestFramework) + AWS
+            </p>
           </div>
         </div>
         <div className="work">
-          <img className="workImage" src={Two} alt="" />
+          <img className="workImage" src={Portrait_ray} alt="" />
           <div className="work_desc">
-            <h3>T.K. Photography</h3>
+            <h3>Artist Portrait</h3>
             <p>My portfolio site as a photographer<br />Build by HTML + CSS + Javascript</p>
           </div>
         </div>
@@ -109,14 +118,14 @@ const landing = props => {
           <img className="workImage" src={Three} alt="" />
           <div className="work_desc">
             <h3>The Memory of the summer</h3>
-            <p>53rd Nikkor Photo Contest Winning prize</p>
+            <p>The 53rd Nikon Photo Contest Winning prize</p>
           </div>
         </div>
         <div className="work">
-          <img className="workImage" src={Sam} alt="" />
+          <img className="workImage" src={Two} alt="" />
           <div className="work_desc">
-            <h3>Painting</h3>
-            <p>fjsajfajfsa</p>
+            <h3>T.K. Photography</h3>
+            <p>My portfolio site as a photographer<br />Build by HTML + CSS + Javascript</p>
           </div>
         </div>
 
