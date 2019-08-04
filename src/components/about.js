@@ -46,8 +46,8 @@ export default () => {
 
           <h4>- Awards</h4>
           <p>
-            The 53rd Nikon Photo Contest <br />
-            ISPA 2014 International Street Photography Award Black and White depart
+            ISPA 2014 International Street Photography Award Black and White Category - Recommended Prize<br />
+            The 53rd Nikon Photo Award - Selected Prize
           </p>
         </div>
       </div>
