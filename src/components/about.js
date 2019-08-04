@@ -18,30 +18,29 @@ export default () => {
           </h2>
           <h4>- Hi!</h4>
           <p>
-            Photographs, Movies, Books, Coffee
+            I am a Street photographer and also a frontend React engineer, based on <span style={{ textDecoration: 'underline' }}>Berlin</span> and <span style={{ textDecoration: 'underline' }}>Tokyo</span>.
             <br />
-            I am a Street photographer and also a programmer. based on <span style={{ textDecoration: 'underline' }}>Berlin</span> and <span style={{ textDecoration: 'underline' }}>Tokyo</span>.
-            <br />
-            My work Career started as an occupational photographer but since 2017 I decided to change my career and bocame
+            My work Career started as an occupational photographer but since 2017 I decided to change my career and became
             a programmer.
             <br />
-            I make ... Photographs, Videos, and Web services.
+            I make ... Photographs, Videos, and Web stuff.
             <br />
             <br />
-            I didn’t learn any of them in university nor have any degrees about them.
+            To be honest, I didn&apos;t learn any of them in university nor have any degrees about them.
             <br />
             but I knew, I realized, the only important thing is to keep improving myself day to day and to keep stepping
             forward one by one.
             <br />
             <br />
-            Eager to be a better one, passion and expectation that I want to make something better or make the world
-            convinient, and curiosity about the adventure of life, drive me.
+            Eager to be a better one, passion and expectation to make something better, and curiosity about the adventure of life, drive me.
           </p>
 
           <h4>- Personal Interests</h4>
           <p>
-            Eager to be a better one, passion and expectation that I want to make something better or make the world
-            convinient, and curiosity about the adventure of life, drive me.
+            Minimalism. I am a weirdo who is always wearing the same cloths.<br />
+            I love stories so much that movies and books are like nutrition for me.<br />
+            Also enjoy coffee, pizza, cheese burgers and some Japanese healthy food.<br />
+            I only admit &apos;Kindness&apos; as the sole value of humans.
           </p>
 
           <h4>- Awards</h4>
