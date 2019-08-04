@@ -14,7 +14,7 @@ export default () => {
             </div>
             <div className="sBox">
               <p className="top">English</p>
-              <p className="under"> </p>
+              <p className="under"></p>
             </div>
             <div className="sBox">
               <p className="top">German</p>
@@ -30,8 +30,9 @@ export default () => {
           </div>
 
           <div className="skills__desc">
-            I enjoy learning Languages and am quick learner.<br />
-            Even though we now have great translator and interpreter which are working through internet, real communication is still needed.<br />
+            I enjoy learning Languages and am quick learner.<br/>
+            Even though we now have great translator and interpreter which are working through internet, real
+            communication is still needed.<br/>
             And learn their languages is like to learn how they think. It is just very interesting :)
           </div>
 
@@ -52,7 +53,7 @@ export default () => {
                 <span className="arrow">&gt; </span>
                 Portrait
               </p>
-              <p className="under">unposed<br />natural</p>
+              <p className="under">unposed<br/>natural</p>
             </div>
             <div className="sBox">
               <p className="top">MusicVideo</p>
@@ -63,8 +64,8 @@ export default () => {
           </div>
 
           <div className="skills__desc">
-            I think I&apos;m so visual person and love making beautiful images.<br />
-            But basically, I do not like beauty which is pretentious and intentionally set.<br />
+            I think I&apos;m so visual person and love making beautiful images.<br/>
+            But basically, I do not like beauty which is pretentious and intentionally set.<br/>
             I can offer you natural beauty.
           </div>
 
@@ -81,7 +82,7 @@ export default () => {
                 <span className="arrow">&gt; </span>
                 Javascript
               </p>
-              <p className="under">React<br />Typescript</p>
+              <p className="under">React<br/>Typescript</p>
             </div>
             <div className="sBox">
               <p className="top">Python</p>
@@ -89,14 +90,15 @@ export default () => {
             </div>
             <div className="sBox">
               <p className="top">AWS</p>
-              <p className="under">ECS<br />S3<br />CloudFront<br />Route 53<br />RDS</p>
+              <p className="under">ECS<br/>S3<br/>CloudFront<br/>Route 53<br/>RDS</p>
             </div>
           </div>
 
           <div className="skills__desc">
-            I make simple and easy-to-use frontend with concept.<br />
-            When technical difficulties confront me I just learn it until I acquire it.<br />
-            I think Engineer skills are just a tool to make what we want but simultaneously tools should be as good as possible.
+            I make simple and easy-to-use front-end with concept.<br/>
+            When technical difficulties confront me I just learn it until I acquire it.<br/>
+            I think Engineer skills are just a tool to make what we want but simultaneously tools should be as good as
+            possible.
           </div>
         </div>
 
@@ -108,8 +110,8 @@ export default () => {
             <p className="date">2008 - <span className="current">CURRENT</span></p>
             <p className="company">Street Photographer</p>
             <p className="progress">
-              StreetPhotographer is the way I am and I&apos;ve always been doing this.<br />
-              As an extention of photography I also make videos.<br />
+              StreetPhotographer is the way I am and I&apos;ve always been doing this.<br/>
+              As an extention of photography I also make videos.<br/>
               My worldview is the same in videos, black and white, humour and sadness.
             </p>
             <ul className="acquireSkills">
@@ -125,8 +127,8 @@ export default () => {
             <p className="date">2019 01 - <span className="current">CURRENT</span></p>
             <p className="company">noon inc. / Co-Founder, FullStack Engineer</p>
             <p className="progress">
-              First company I made with other two co-founders.<br />
-              I&apos;m the only Engineer but not only as an engineer, I&apos;m involved in any of issues.<br />
+              First company I made with other two co-founders.<br/>
+              I&apos;m the only Engineer but not only as an engineer, I&apos;m involved in any of issues.<br/>
               Especially in Target marketing, UX, Concept, Promotion.
             </p>
             <ul className="acquireSkills">
@@ -141,7 +143,11 @@ export default () => {
           <div className="eachInfo">
             <p className="date">2018 08 - 2019 01</p>
             <p className="company">Mintz Planning / FullStack Engineer</p>
-            <p className="progress">sample. sample</p>
+            <p className="progress">
+              I was invited to make new SNS called &apos;nu&apos; which targeted young girls.
+              Write React Native was necessary to make both app for android and iPhone.
+              Also I had to do server side things and infrastructure by myself. I just learnt and made it.
+            </p>
             <ul className="acquireSkills">
               <li>HTML5</li>
               <li>CSS3</li>
@@ -153,8 +159,13 @@ export default () => {
           <div className="circle" />
           <div className="eachInfo">
             <p className="date">2018 07 - 2018 08</p>
-            <p className="company">LOB / Frontend Engineer</p>
-            <p className="progress">sample. sample</p>
+            <p className="company">LOB / Front-end Engineer, UX Designer</p>
+            <p className="progress">
+              As a subsidiary of big Japanese company Rakuten, with whole engineer, dedicated to making new ad platform
+              which competes with ad platform of Google or Amazon.<br/>
+              I was assigned to team to build admin page for users.<br/>
+              Switching pages depends on user roles and showing many data clearly was needed.
+            </p>
             <ul className="acquireSkills">
               <li>Javascript(React)</li>
               <li>Typescript</li>
@@ -163,8 +174,12 @@ export default () => {
           <div className="circle" />
           <div className="eachInfo">
             <p className="date">2018 05 - 2018 07</p>
-            <p className="company">JointCrew / Frontend Engineer</p>
-            <p className="progress">sample. sample</p>
+            <p className="company">JointCrew / Front-end Engineer</p>
+            <p className="progress">
+              First company I worked for as a front-end engineer.<br/>
+              I made admin pages for employees management app.<br/>
+              Also I was incharged of making structure of app which is collaborated with local government.
+            </p>
             <ul className="acquireSkills">
               <li>Javascript(React)</li>
             </ul>
@@ -173,7 +188,9 @@ export default () => {
           <div className="eachInfo">
             <p className="date">2016 04 - 2016 08</p>
             <p className="company">Art School / Guest Lecturer</p>
-            <p className="progress">sample. sample</p>
+            <p className="progress">
+              sample
+            </p>
             <ul className="acquireSkills">
               <li>Portrait</li>
               <li>DocumentPhoto</li>

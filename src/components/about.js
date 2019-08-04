@@ -18,7 +18,7 @@ export default () => {
           </h2>
           <h4>- Hi!</h4>
           <p>
-            I am a Street photographer and also a frontend React engineer, based on <span style={{ textDecoration: 'underline' }}>Berlin</span> and <span style={{ textDecoration: 'underline' }}>Tokyo</span>.
+            I am a Street photographer and also a front-end React engineer, based on <span style={{ textDecoration: 'underline' }}>Berlin</span> and <span style={{ textDecoration: 'underline' }}>Tokyo</span>.
             <br />
             My work Career started as an occupational photographer but since 2017 I decided to change my career and became
             a programmer.
