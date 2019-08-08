@@ -189,7 +189,9 @@ export default () => {
             <p className="date">2016 04 - 2016 08</p>
             <p className="company">Art School / Guest Lecturer</p>
             <p className="progress">
-              sample
+              I was asked to be a temporally lecturer of Photography class at Art school.<br />
+              This was a unique job in my career but teaching to young students was one of the best experience.<br />
+              And I could also learn a lot from them.
             </p>
             <ul className="acquireSkills">
               <li>Portrait</li>
@@ -201,7 +203,7 @@ export default () => {
           <div className="eachInfo">
             <p className="date">2014 04 - 2016 04</p>
             <p className="company">Photo Studio / Photographer</p>
-            <p className="progress">sample. sample</p>
+            <p className="progress">I&apos;ve never wanted to take a picture with set but learning about lighting and human posture improved me to the next step.</p>
             <ul className="acquireSkills">
               <li>Portrait</li>
             </ul>

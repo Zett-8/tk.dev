@@ -32,21 +32,24 @@ export default () => {
             forward one by one.
             <br />
             <br />
-            Eager to be a better one, passion and expectation to make something better, and curiosity about the adventure of life, drive me.
+            Eager to be a better one, passion and expectation to make something better, and curiosity about life, drive me.
           </p>
 
           <h4>- Personal Interests</h4>
           <p>
-            Minimalism. I am a weirdo who is always wearing the same cloths.<br />
-            I love stories so much that movies and books are like nutrition for me.<br />
-            Also enjoy coffee, pizza, cheese burgers and some Japanese healthy food.<br />
+            Minimalism. I am a weirdo who is always wearing the same cloths.
+            <br />
+            I love stories so much that movies and books are very necessary.
+            <br />
+            Also enjoy coffee, pizza, cheese burgers and some Japanese healthy food.
+            <br />
             I only admit &apos;Kindness&apos; as the sole value of humans.
           </p>
 
           <h4>- Awards</h4>
           <p>
             ISPA 2014 International Street Photography Award Black and White Category - Recommended Prize<br />
-            The 53rd Nikon Photo Award - Selected Prize
+            The 59th Nikon Photo Award - Selected Prize
           </p>
         </div>
       </div>
