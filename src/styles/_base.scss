@@ -32,6 +32,10 @@ a {
 h1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 3rem;
+
+  @media only screen and (max-width: $screen-small) {
+    font-size: 2.8rem;
+  }
 }
 
 h2 {

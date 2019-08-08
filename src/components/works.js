@@ -5,6 +5,7 @@ import Olive from '../assets/olive_thumb.jpg'
 import PortraitOfRay from '../assets/portrait1_thumb.jpg'
 import Summer from '../assets/summer_thumb.jpg'
 import LightBox from '../assets/lightbox_thumb.jpg'
+// import Webm from '../assets/ezgif.com-gif-to-webm.webm'
 
 export default () => {
   return (
@@ -24,6 +25,9 @@ export default () => {
       </div>
       <div className="work">
         <img className="workImage" src={Movie} alt="" />
+        {/*<video controls autoPlay name="media">*/}
+          {/*<source src={Webm} type="video/webm" />*/}
+        {/*</video>*/}
         <div className="work_desc">
           <h3>Song of the end</h3>
           <p>
