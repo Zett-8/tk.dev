@@ -2,19 +2,19 @@
   "short_name": "TK.DEV",
   "name": "TK.DEV",
   "icons": [{
-    "src": "src/assets/touch.png",
+    "src": "touch/touch.png",
     "sizes": "192x192",
     "type": "image/png"
   }, {
-    "src": "src/assets/touch.png",
+    "src": "touch/touch.png",
     "sizes": "256x256",
     "type": "image/png"
   }, {
-    "src": "src/assets/touch.png",
+    "src": "touch/touch.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
-  "start_url": "./",
+  "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#f4f4f4",
   "background_color": "#f4f4f4",
