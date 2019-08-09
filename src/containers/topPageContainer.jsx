@@ -1,6 +1,4 @@
 import React from 'react'
-
-import Header from '../components/header'
 import Landing from '../components/landing'
 import About from '../components/about'
 import Works from '../components/works'
@@ -16,7 +14,6 @@ class Container extends React.Component {
     this.state = {
       email: 'kame0008@gmail.com',
       copied: false,
-      menuIsOpen: false
     }
   }
 
@@ -27,19 +24,9 @@ class Container extends React.Component {
     this.setState({ copied: true })
   }
 
-  hamburgerClicked = () => {
-    const current = this.state.menuIsOpen
-    this.setState({ menuIsOpen: !current })
-  }
-
   render() {
     return (
       <React.Fragment>
-        <Header
-          menuIsOpen={this.state.menuIsOpen}
-          hamburgerClicked={this.hamburgerClicked}
-        />
-
         <Landing />
 
         <About />
