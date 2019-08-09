@@ -13,9 +13,8 @@ export default() => {
           <h1>TOSHIKI KAMEI</h1>
           <p>Street photographer / Programmer</p>
         </div>
+        <div id="steep" />
       </div>
-
-      <div id="steep" />
     </React.Fragment>
   )
 }
