@@ -15,11 +15,11 @@
 
   .top_txt {
     align-self: end;
-
+    height: 100px;
+    margin-bottom: calc(-10vh - 50px);
     p {
       font-size: 2rem;
       letter-spacing: 0.08rem;
-      margin-bottom: -10vh;
 
       @media only screen and (max-width: $screen-small) {
         font-size: 1.8rem;
