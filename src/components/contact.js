@@ -37,7 +37,7 @@ const contact = props => {
           <p className="copy">Designed and Built by Toshiki Kamei.</p>
         </div>
       </div>
-      <input readOnly={true} value={props.email} ref={props.inputRef} style={{ opacity: '0', position: 'fixed' }} />
+      <input aria-label="my email address" readOnly={true} value={props.email} ref={props.inputRef} style={{ opacity: '0', position: 'fixed' }} />
     </React.Fragment>
   )
 }

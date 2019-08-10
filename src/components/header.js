@@ -13,7 +13,7 @@ const header = props => {
         <p onClick={() => props.hamburgerClicked()}><AnchorLink href="#contact">Contact</AnchorLink></p>
       </div>
 
-      <div role="button" className={props.menuIsOpen ? 'button_C' : 'button_N'} onClick={() => props.hamburgerClicked()}>
+      <div role="button" aria-label="menu open button" className={props.menuIsOpen ? 'button_C' : 'button_N'} onClick={() => props.hamburgerClicked()}>
         <span className="button_Hum" />
       </div>
     </React.Fragment>

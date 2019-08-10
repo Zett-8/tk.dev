@@ -11,7 +11,7 @@ export default () => {
   return (
     <div id="works">
       <div className="work">
-        <img className="workImage" src={Fall} alt="" />
+        <img className="workImage" src={Fall} alt="photo which won prize" />
         <div className="work_desc">
           <h3>Fall, 2011</h3>
           <p>
@@ -24,7 +24,7 @@ export default () => {
         </div>
       </div>
       <div className="work">
-        <img className="workImage" src={Movie} alt="" />
+        <img className="workImage" src={Movie} alt="music video gif" />
         {/*<video controls autoPlay name="media">*/}
           {/*<source src={Webm} type="video/webm" />*/}
         {/*</video>*/}
@@ -38,7 +38,7 @@ export default () => {
         </div>
       </div>
       <div className="work">
-        <img className="workImage" src={Olive} alt="" />
+        <img className="workImage" src={Olive} alt="screen shot of web service called Olive" />
         <div className="work_desc">
           <h3>Olive</h3>
           <p>
@@ -51,7 +51,7 @@ export default () => {
         </div>
       </div>
       <div className="work">
-        <img className="workImage" src={PortraitOfRay} alt="" />
+        <img className="workImage" src={PortraitOfRay} alt="artist portrait" />
         <div className="work_desc">
           <h3>Artist Portrait</h3>
           <p>
@@ -62,7 +62,7 @@ export default () => {
         </div>
       </div>
       <div className="work">
-        <img className="workImage" src={LightBox} alt="" />
+        <img className="workImage" src={LightBox} alt="my portfolio site" />
         <div className="work_desc">
           <h3>T.K. Photography</h3>
           <p>
@@ -73,7 +73,7 @@ export default () => {
         </div>
       </div>
       <div className="work">
-        <img className="workImage" src={Summer} alt="" />
+        <img className="workImage" src={Summer} alt="photo which won prize" />
         <div className="work_desc">
           <h3>The Memory of the summer</h3>
           <p>The 59rd Nikon Photo Contest Winning prize</p>
