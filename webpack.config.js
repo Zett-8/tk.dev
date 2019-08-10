@@ -1,6 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
 // const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
 module.exports = {
@@ -86,6 +87,32 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
     }),
+    new WorkboxWebpackPlugin.GenerateSW({
+      // don't have to specify
+      // globDirectory: path.resolve(__dirname, 'dist'),
+      // globPatterns: ['*.{html,js,css,jpg,gif,png'],
+      swDest: path.resolve(__dirname, 'dist/sw.js'),
+      clientsClaim: true,
+      skipWaiting: true,
+      runtimeCaching: [
+        {
+          urlPattern: new RegExp('/'),
+          handler: 'StaleWhileRevalidate'
+        },
+        {
+          urlPattern: new RegExp('https://www.googleapis.com/'),
+          handler: 'CacheFirst',
+          options: {
+            cacheName: 'api',
+            expiration: {
+              maxEntries: 100,
+              maxAgeSeconds: 72
+            },
+            cacheableResponse: { statuses: [0, 200] }
+          }
+        }
+      ]
+    })
     // new BundleAnalyzerPlugin()
   ]
 }
