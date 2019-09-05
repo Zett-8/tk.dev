@@ -25,7 +25,7 @@ const contact = props => {
           <a href="https://www.facebook.com/toshiki.kamei.3" target="_blank" rel="noopener noreferrer">
             <img src={FaceBook} alt="" width="25px" />
           </a>
-          <a href="https://www.instagram.com/derosablue/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/tk_streetphotography/" target="_blank" rel="noopener noreferrer">
             <img src={Instagram} alt="" width="25px" />
           </a>
           <a href="https://www.linkedin.com/in/toshiki-kamei-43543516a/" target="_blank" rel="noopener noreferrer">

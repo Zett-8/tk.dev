@@ -41,7 +41,7 @@ export default () => {
             <br />
             I love stories so much that movies and books are very necessary.
             <br />
-            Also enjoy coffee, pizza, cheese burgers and some Japanese healthy food.
+            Also enjoy coffee, pizza, cheese burgers and some Japanese healthy food :)
             <br />
             I only admit &apos;Kindness&apos; as the sole value of humans.
           </p>
