@@ -34,6 +34,9 @@ export default () => {
             Music video for rock band "Yoctopolis"
             <br />
             Produced in 2016
+            <br />
+            <br />
+            <a href="https://youtu.be/fd-j0htK-fE" target="_blank" rel="noopener noreferrer">https://youtu.be/fd-j0htK-fE</a>
           </p>
         </div>
       </div>
@@ -47,6 +50,9 @@ export default () => {
             HTML5 + CSS3
             <br />
             Javascript(React) + Python(RestFramework) + AWS
+            <br />
+            <br />
+            <a href="https://olive-gallery.com/" target="_blank" rel="noopener noreferrer">https://olive-gallery.com/</a>
           </p>
         </div>
       </div>
@@ -54,11 +60,7 @@ export default () => {
         <img className="workImage" src={PortraitOfRay} alt="artist portrait" />
         <div className="work_desc">
           <h3>Artist Portrait</h3>
-          <p>
-            My portfolio site as a photographer
-            <br />
-            Build by HTML + CSS + Javascript
-          </p>
+          <p />
         </div>
       </div>
       <div className="work">
@@ -69,6 +71,9 @@ export default () => {
             My portfolio site as a photographer
             <br />
             Build by HTML + CSS + Javascript
+            <br />
+            <br />
+            <a href="https://toshikikamei.com/" target="_blank" rel="noopener noreferrer">https://toshikikamei.com/</a>
           </p>
         </div>
       </div>
