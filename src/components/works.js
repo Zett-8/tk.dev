@@ -47,9 +47,7 @@ export default () => {
           <p>
             Online Art Gallery, 2019
             <br />
-            HTML5 + CSS3
-            <br />
-            Javascript(React) + Python(RestFramework) + AWS
+            Artist web platform
             <br />
             <br />
             <a href="https://olive-gallery.com/" target="_blank" rel="noopener noreferrer">https://olive-gallery.com/</a>
@@ -68,9 +66,7 @@ export default () => {
         <div className="work_desc">
           <h3>T.K. Photography</h3>
           <p>
-            My portfolio site as a photographer
-            <br />
-            Build by HTML + CSS + Javascript
+            Photographer portfolio site
             <br />
             <br />
             <a href="https://toshikikamei.com/" target="_blank" rel="noopener noreferrer">https://toshikikamei.com/</a>

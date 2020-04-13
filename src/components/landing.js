@@ -11,7 +11,7 @@ export default() => {
         </p>
         <div className="top_txt">
           <h1>TOSHIKI KAMEI</h1>
-          <p>Street photographer / Programmer</p>
+          <p>Street photographer / Web developer</p>
         </div>
         <div id="steep" />
       </div>

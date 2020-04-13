@@ -6,15 +6,18 @@ export default () => {
       <div className="SRWrapper">
 
         <div className="skills">
-          <p className="skills__title">Basic skills</p>
+          <p className="skills__title">Languages</p>
           <div className="skills__eachSkills">
             <div className="sBox">
-              <p className="top">Japanese</p>
+              <p className="top">
+                <span className="arrow">&gt; </span>
+                Japanese
+              </p>
               <p className="under">native</p>
             </div>
             <div className="sBox">
               <p className="top">English</p>
-              <p className="under"></p>
+              <p className="under">working proficiency</p>
             </div>
             <div className="sBox">
               <p className="top">German</p>
@@ -23,20 +26,26 @@ export default () => {
             <div className="sBox">
               <p className="top">
                 <span className="arrow">&gt; </span>
-                Translation
+                Javascript
               </p>
-              <p className="under">ENG to JPN</p>
+              <p className="under" />
+            </div>
+            <div className="sBox">
+              <p className="top">Python</p>
+              <p className="under" />
+            </div>
+            <div className="sBox">
+              <p className="top">Go</p>
+              <p className="under" />
             </div>
           </div>
 
           <div className="skills__desc">
             I enjoy learning Languages and am quick learner.<br/>
-            Even though we now have great translator and interpreter which are working through internet, real
-            communication is still needed.<br/>
-            And learn their languages is like to learn how they think. It is just very interesting :)
+            And learn their languages is like to learn how they think. It is always interesting :)
           </div>
 
-          <p className="skills__title">Creative skills</p>
+          <p className="skills__title">Creation</p>
           <div className="skills__eachSkills">
             <div className="sBox">
               <p className="top">
@@ -46,59 +55,61 @@ export default () => {
               <p className="under">love of my life</p>
             </div>
             <div className="sBox">
-              <p className="top">DocumentPhoto</p>
-            </div>
-            <div className="sBox">
               <p className="top">
                 <span className="arrow">&gt; </span>
-                Portrait
+                Web application
               </p>
+            </div>
+            <div className="sBox">
+              <p className="top">Portrait</p>
               <p className="under">unposed<br/>natural</p>
             </div>
             <div className="sBox">
               <p className="top">MusicVideo</p>
             </div>
-            <div className="sBox">
-              <p className="top">PromoVideo</p>
-            </div>
           </div>
 
           <div className="skills__desc">
-            I think I&apos;m so visual person and love making beautiful images.<br/>
+            I think I&apos;m visual person and love making beautiful images.<br/>
             But basically, I do not like beauty which is pretentious and intentionally set.<br/>
             I can offer you natural beauty.
           </div>
 
-          <p className="skills__title">Develop skills</p>
+          <p className="skills__title">Tech stack</p>
           <div className="skills__eachSkills">
-            <div className="sBox">
-              <p className="top">HTML5</p>
-            </div>
-            <div className="sBox">
-              <p className="top">CSS3</p>
-            </div>
             <div className="sBox">
               <p className="top">
                 <span className="arrow">&gt; </span>
-                Javascript
+                Gatsby
               </p>
-              <p className="under">React<br/>Typescript</p>
+              <p className="under">Redux<br />Apollo & GraphQL<br />Styled-component</p>
             </div>
             <div className="sBox">
-              <p className="top">Python</p>
-              <p className="under">Django RF</p>
+              <p className="top">Express</p>
+              <p className="under" />
             </div>
             <div className="sBox">
-              <p className="top">AWS</p>
-              <p className="under">ECS<br/>S3<br/>CloudFront<br/>Route 53<br/>RDS</p>
+              <p className="top">Firebase</p>
+              <p className="under">Authentication<br/>Hosting<br/>Firestore<br/>Cloud functions</p>
+            </div>
+            <div className="sBox">
+              <p className="top">Hasura</p>
+              <p className="under">GraphQL<br />PostgreSQL<br/>Heroku</p>
+            </div>
+            <div className="sBox">
+              <p className="top">Django</p>
+              <p className="under">Django Rest Framework</p>
+            </div>
+            <div className="sBox">
+              <p className="top">Adobe</p>
+              <p className="under">Photoshop<br />XD</p>
             </div>
           </div>
 
           <div className="skills__desc">
-            I make simple and easy-to-use front-end with concept.<br/>
-            When technical difficulties confront me I just learn it until I acquire it.<br/>
-            I think Engineer skills are just a tool to make what we want but simultaneously tools should be as good as
-            possible.
+            I think these skills are just a tool to make what we want but simultaneously tools should be as good as
+            possible.<br />
+            I'm always updating my skills.
           </div>
         </div>
 
@@ -128,8 +139,7 @@ export default () => {
             <p className="company">noon inc. / Co-Founder, FullStack Engineer</p>
             <p className="progress">
               First company I made with other two co-founders.<br/>
-              I&apos;m the only Engineer but not only as an engineer, I&apos;m involved in any of issues.<br/>
-              Especially in Target marketing, UX, Concept, Promotion.
+              Involved in Full stack development, Target marketing, UX, Concept, Promotion as the only engineer.<br/>
             </p>
             <ul className="acquireSkills">
               <li>HTML5</li>
@@ -144,9 +154,8 @@ export default () => {
             <p className="date">2018 08 - 2019 01</p>
             <p className="company">Mintz Planning / FullStack Engineer</p>
             <p className="progress">
-              I was invited to make new SNS called &apos;nu&apos; which targeted young girls.
-              Write React Native was necessary to make both app for android and iPhone.
-              Also I had to do server side things and infrastructure by myself. I just learnt and made it.
+              I was invited to make new Social media called &apos;nu&apos; which targeted young girls.<br />
+              Used React Native to make both app for android and iPhone.
             </p>
             <ul className="acquireSkills">
               <li>HTML5</li>
@@ -161,10 +170,10 @@ export default () => {
             <p className="date">2018 07 - 2018 08</p>
             <p className="company">LOB / Front-end Engineer, UX Designer</p>
             <p className="progress">
-              As a subsidiary of big Japanese company Rakuten, with whole engineer, dedicated to making new ad platform
+              As a subsidiary of big Japanese company Rakuten, with whole engineer, <br />
+              dedicated to making new ad platform
               which competes with ad platform of Google or Amazon.<br/>
-              I was assigned to team to build admin page for users.<br/>
-              Switching pages depends on user roles and showing many data clearly was needed.
+              I was assigned to team to build admin pages for users.<br/>
             </p>
             <ul className="acquireSkills">
               <li>Javascript(React)</li>
